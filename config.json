@@ -27,7 +27,7 @@
   },
   "styles": {
     "egypt-style": {
-      "style": "/data/styles/style.json",
+      "style": "style.json",
       "tilejson": {
         "bounds": [24.7, 21.7, 37.1, 31.7]
       }
@@ -35,7 +35,7 @@
   },
   "data": {
     "egypt": {
-      "mbtiles": "/data/tiles/osm-2020-02-10-v3.11_africa_egypt-2025-06-10-12-18-13.mbtiles"
+      "mbtiles": "osm-2020-02-10-v3.11_africa_egypt-2025-06-10-12-18-13.mbtiles"
     }
   }
 }
