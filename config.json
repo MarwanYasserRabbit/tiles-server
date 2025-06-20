@@ -27,7 +27,7 @@
   },
   "styles": {
     "egypt-style": {
-      "style": "/data/styles/egypt-style/style.json",
+      "style": "/data/styles/style.json",
       "tilejson": {
         "bounds": [24.7, 21.7, 37.1, 31.7]
       }
