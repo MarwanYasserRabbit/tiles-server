@@ -1,7 +1,7 @@
 {
   "options": {
     "paths": {
-      "root": "data",
+      "root": ".",
       "fonts": "/data/fonts",
       "styles": "/data/styles",
       "mbtiles": "/data/tiles"
