@@ -1,0 +1,41 @@
+{
+  "options": {
+    "paths": {
+      "root": ".",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "tiles"
+    },
+    "formatOptions": {
+      "jpeg": {
+        "quality": 80
+      },
+      "webp": {
+        "quality": 60
+      },
+      "png": {
+        "palette": true,
+        "colors": 4,
+        "quality": 60
+      }
+    },
+    "maxScaleFactor": 3,
+    "maxSize": 2048,
+    "minRendererPoolSizes": [8, 4, 2],
+    "maxRendererPoolSizes": [16, 8, 4],
+    "maxzoom": 30
+  },
+  "styles": {
+    "egypt-style": {
+      "style": "style.json",
+      "tilejson": {
+        "bounds": [24.7, 21.7, 37.1, 31.7]
+      }
+    }
+  },
+  "data": {
+    "egypt": {
+      "mbtiles": "osm-2020-02-10-v3.11_africa_egypt-2025-06-10-12-18-13.mbtiles"
+    }
+  }
+}
