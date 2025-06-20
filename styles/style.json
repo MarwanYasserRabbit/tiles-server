@@ -4518,7 +4518,7 @@
       "url": "mbtiles://{egypt}"
     }
   },
-  "sprite": "styles/sprite",
+  "sprite": "/data/styles/sprite",
   "version": 8,
   "zoom": 1
 }
