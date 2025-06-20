@@ -2,7 +2,7 @@ version: '3'
 services:
   tileserver:
     image: maptiler/tileserver-gl
-    command: --port 3650
+    command: ["tileserver-gl", "--port", "3650"]
     ports:
       - "3650:3650"
     volumes:
