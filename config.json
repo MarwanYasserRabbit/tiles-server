@@ -1,10 +1,10 @@
 {
   "options": {
     "paths": {
-      "root": ".",
-      "fonts": "/data/fonts",
-      "styles": "/data/styles",
-      "mbtiles": "/data/tiles"
+      "root": "/data",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "tiles"
     },
     "formatOptions": {
       "jpeg": {
