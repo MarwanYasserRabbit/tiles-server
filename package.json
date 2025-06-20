@@ -1,0 +1,16 @@
+{
+  "name": "tileserver",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tileserver-gl --port 3650"
+  },
+  "author": "Rabbit Mobility",
+  "license": "ISC",
+  "engines": {
+    "node": "20.10.0",
+    "npm": "10.2.3"
+  },
+  "dependencies": {
+    "tileserver-gl": "^5.3.1"
+  }
+}
