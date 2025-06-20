@@ -1,0 +1,9 @@
+version: '3'
+services:
+  tileserver:
+    image: maptiler/tileserver-gl
+    ports:
+      - "3650:3650"
+    volumes:
+      - .:/data
+    restart: unless-stopped
