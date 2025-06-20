@@ -2,9 +2,8 @@ version: '3'
 services:
   tileserver:
     image: maptiler/tileserver-gl
-    command: ["tileserver-gl", "--port", "3650"]
     ports:
-      - "3650:3650"
+      - "3650:8080"
     volumes:
       - .:/data
     restart: unless-stopped
