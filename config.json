@@ -11,7 +11,7 @@
         "quality": 80
       },
       "webp": {
-        "quality": 60
+        "quality": 40
       },
       "png": {
         "palette": true,
@@ -22,7 +22,7 @@
     "maxScaleFactor": 3,
     "maxSize": 2048,
     "minRendererPoolSizes": [8, 4, 2],
-    "maxRendererPoolSizes": [16, 8, 4],
+    "maxRendererPoolSizes": [8, 4, 2],
     "maxzoom": 30
   },
   "styles": {
