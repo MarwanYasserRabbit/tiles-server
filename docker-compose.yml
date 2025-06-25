@@ -7,4 +7,4 @@ services:
       - "3650:8080"
     volumes:
       - .:/data
-    restart: no
+    restart: always
