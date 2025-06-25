@@ -21,8 +21,8 @@
     },
     "maxScaleFactor": 3,
     "maxSize": 2048,
-    "minRendererPoolSizes": [2, 1, 1],
-    "maxRendererPoolSizes": [2, 1, 1],
+    "minRendererPoolSizes": [1, 1, 1],
+    "maxRendererPoolSizes": [1, 1, 1],
     "maxzoom": 30
   },
   "styles": {
