@@ -31,3 +31,4 @@ Deploy steps
 - git lfs pull  (if you added a new file that is lfs tracked)
 - docker-compose down
 - docker-compose up -d
+
