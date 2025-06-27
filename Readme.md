@@ -19,7 +19,10 @@ use   docker run --rm -it \
   -v /mnt/d/Test/MapTiler:/srv \
   tilemaker \
   --input=/srv/egypt-latest.osm.pbf \
-  --output=/srv/egypt.mbtiles
+  --output=/srv/egypt.mbtiles \
+  --config=/srv/config-coastline.json \
+  --process=/srv/process-coastline.lua  \
+  --bbox=21.80407,18.22647,39.93883,35.79160
 
 to transform it to .mbtiles file
 
@@ -32,3 +35,9 @@ Deploy steps
 - docker-compose down
 - docker-compose up -d
 
+
+you can find the coastline and land cover files at  
+- https://osmdata.openstreetmap.de/download/water-polygons-split-4326.zip (For Seas and this is the important one)
+- https://naciscdn.org/naturalearth/10m/physical/ne_10m_antarctic_ice_shelves_polys.zip (can be ignored)
+- https://naciscdn.org/naturalearth/10m/cultural/ne_10m_urban_areas.zip (can be ignored)
+- https://naciscdn.org/naturalearth/10m/physical/ne_10m_glaciated_areas.zip (can be ignored)
